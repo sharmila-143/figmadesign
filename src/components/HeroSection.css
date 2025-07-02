@@ -508,4 +508,247 @@ h4,h2{
     margin: 30px 0 0 0;
   }
 }
+@media (min-width: 1024px) {
+  .section,
+  .section1,
+  .section2,
+  .section3,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .section9 {
+    flex-direction: row;
+    height: 600px;
+    padding: 80px 100px;
+  }
+
+  .content,
+  .content1,
+  .content3,
+  .content4,
+  .content5,
+  .content7 {
+    width: 50%;
+    padding: 80px;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 20px 30px;
+    max-width: 250px;
+  }
+
+  .box {
+    width: 600px;
+    height: 400px;
+  }
+
+  .half1,
+  .half2 {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .part2 {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 60px;
+    gap: 40px;
+  }
+
+  .list1,
+  .list2 {
+    width: 30%;
+    padding: 40px;
+  }
+
+  .logos ul {
+    gap: 100px;
+    padding: 40px 60px;
+  }
+
+  .section7 .img {
+    max-width: 400px;
+    margin: 0;
+  }
+
+  .content6 {
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    width: 300px;
+    padding: 30px;
+  }
+
+  .section9 {
+    height: 700px;
+    padding: 100px;
+  }
+
+  .content8-2 {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .content8-21,
+  .content8-25 {
+    width: 250px;
+    margin: 0;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px;
+  }
+
+  .footer nav ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .icons2 {
+    margin: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section,
+  .section1,
+  .section2,
+  .section3,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .section9 {
+    flex-direction: column;
+    height: auto;
+    padding: 60px 40px;
+  }
+
+  .content,
+  .content1,
+  .content3,
+  .content4,
+  .content5,
+  .content7 {
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 18px 24px;
+  }
+
+  .box {
+    width: 100%;
+    height: 300px;
+  }
+
+  .half1,
+  .half2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .part2 {
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .list1,
+  .list2 {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+  }
+
+  .logos ul {
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section7 .img {
+    margin: 20px auto;
+    max-width: 90%;
+  }
+
+  .content6 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+  }
+
+  .section9 {
+    padding: 60px 40px;
+  }
+
+  .content8-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .content8-21,
+  .content8-25 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .icons2 {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
 
